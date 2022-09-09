@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+/* Navbar */
+.navbar {
+  top: 0%;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.navbar ul li{
+    padding: 20px;
+}
+
+/* home section */
+#home{
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+  justify-content: center;
+  height: 840px;
+}
+#home::before{
+  position: absolute;
+  content: "";
+  top: 0%;
+  right: 0%;
+  /* background-image: url("2.jpg"); */
+}
