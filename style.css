@@ -1,12 +1,22 @@
 * {
   margin: 0;
-  padding: 0;
-  
+  padding: 0;  
+}
+body{
+  background-image: url(/images/BL.jpg);
+  color: whitesmoke ;
 }
 /* Navbar */
 .navbar {
   top: 0%;
+  
 }
+
+
+head{
+  color: red;
+}
+
 .navbar ul {
   display: flex;
   justify-content: center;
@@ -17,17 +27,31 @@
 }
 
 /* home section */
-#home{
+.home{
+}
+.main{
   display: flex;
   flex-direction: column;
-  background-color:white;
-  justify-content: center;
-  height: 840px;
-}
-#home::before{
+  /* border: 1px solid white; */
+  align-items: center;
   position: absolute;
-  content: "";
-  top: 0%;
-  right: 0%;
-  /* background-image: url("2.jpg"); */
+  top: 30%;
+  right: 10%;
+}
+.headings{
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px;
+
+}
+.btn{
+  padding: 10px 35px;
+  background-color: transparent;
+  color: antiquewhite;
+  outline: none;
+  transition: 6s ease;
+}
+.btn:hover{
+  cursor: pointer;
 }
