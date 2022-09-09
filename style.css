@@ -11,8 +11,9 @@ body{
   top: 0%;
   
 }
-
-
+img{
+  width: 20rem;
+}
 head{
   color: red;
 }
@@ -54,4 +55,46 @@ head{
 }
 .btn:hover{
   cursor: pointer;
+  background-color: aliceblue;
+  color: black;
+  box-shadow: 0 0 15px white;
+}
+/* about me section */
+.about{
+  display: flex;
+  flex-direction: column; 
+  margin-bottom: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.pic img {
+  width: 575px;
+  height: 400px;
+
+}
+
+.intro{
+display: flex;
+flex-direction: column;
+text-align: justify;
+padding: 10px;
+
+}
+.intro h2{
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+/* portfolio section*/
+.portfolio{
+  display: flex;
+  flex-direction: column;
+
+}
+.gallery{
+  display: flex;
+}
+.gallery img{
+  width: 36rem;
+  height: 24rem;
+
 }
