@@ -74,6 +74,7 @@ head {
    align-items:center ;
 }
 .pic {
+
   display: flex;
 }
 .pic img {
